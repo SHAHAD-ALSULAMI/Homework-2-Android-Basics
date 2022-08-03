@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout Declaration -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_foreground" />
+    <TextView
+
+        android:padding="5dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginStart="16dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="welcome ,"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ANDROID APP DEVELOPING"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="270dp"
+        android:padding="16dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="EASY TO LEARN WITH OUR ENG.SHAIMA"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="320dp"
+        android:padding="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginLeft="4dp"
+        android:text="SAVING YOUR TIME AND MONY"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="360dp"
+        android:padding="16dp"/>
+    
+    
+</RelativeLayout>
